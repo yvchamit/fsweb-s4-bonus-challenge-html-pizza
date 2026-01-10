@@ -4,22 +4,35 @@ body {
   padding: 0;
 }
 
-header {
+.red-header {
+  background-image:
+  url('../images/Pizza-decor.png'),
+  url('../images/Header-pizza.png'),
+  url('../images/Header-right.png'),
+  url('../images/Header-left.png');
+  
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center bottom 3rem, center bottom, right top, left bottom;
+  background-size: 100%, 70%, 27%, 27%;
+
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #CE2829;
+  background-color: #CE2829;
   text-align: center;
   height: 1080px;
   margin: 0;
   padding-top: 1rem;
+  color: white
 }
+
+
 .logo {
   font-family: "Londrina Solid", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 2rem;
-  color: white;
+  font-size: 2.5rem;
 }
 
 .head-text {
@@ -27,7 +40,6 @@ header {
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
-  color: white;
   margin-bottom: 0;
 }
 
@@ -38,30 +50,28 @@ h1 {
   font-style: normal;
   font-size: 4.5rem;
   text-transform: uppercase;
-  color: white;
   line-height: 1;
 }
 
 .btn {
-    font-family: Barlow;
-    font-weight: 600;
-    font-style: SemiBold;
-    font-size: 1.1rem;
-    text-align: center;
-    vertical-align: middle;
-    width: 12rem;
+  font-family: Barlow;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 1.1rem;
+  text-align: center;
+  vertical-align: middle;
+  width: 12rem;
   height: 4rem;
-    background: #FDC913;
-    border-radius: 50px;
+  background: #FDC913;
+  border-radius: 50px;
   border: 0;
 }
-
 
 .food-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 3rem;
+  gap: 3.5rem;
   align-items: center;
   max-width: 1920 px;
   background: #FFFFaa;
@@ -70,18 +80,16 @@ h1 {
   list-style-type: none;
 }
 
-.food-menu {
+.food-item a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
   font-family: Barlow;
   font-weight: 500;
   font-style: Medium;
-  font-size: 18px;
-  line-height: 32.4px;
+  font-size: 1.1rem;
+  line-height: 2rem;
   letter-spacing: 0%;
-  vertical-align: middle;
-  
-}
-
-.food-list a {
   text-decoration: none;
   color: black;
 }

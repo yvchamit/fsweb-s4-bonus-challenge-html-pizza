@@ -1,95 +1,266 @@
 body {
-  width: 1920px;
-  margin:auto;
-  padding: 0;
+    width: 1920px;
+    margin:auto;
+    padding: 0;
 }
 
 .red-header {
-  background-image:
-  url('../images/Pizza-decor.png'),
-  url('../images/Header-pizza.png'),
-  url('../images/Header-right.png'),
-  url('../images/Header-left.png');
-  
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: center bottom 3rem, center bottom, right top, left bottom;
-  background-size: 100%, 70%, 27%, 27%;
+    background-image:
+    url('../images/Pizza-decor.png'),
+    url('../images/Header-pizza.png'),
+    url('../images/Header-right.png'),
+    url('../images/Header-left.png');
+    
+    background-repeat: no-repeat;
+    background-position: center bottom 3rem, center bottom, right top, left bottom;
+    background-size: 100%, 70%, 27%, 27%;
 
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #CE2829;
-  text-align: center;
-  height: 1080px;
-  margin: 0;
-  padding-top: 1rem;
-  color: white
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #CE2829;
+    text-align: center;
+    height: 1080px;
+    margin: 0;
+    padding-top: 1rem;
+    color: white
 }
 
 
 .logo {
-  font-family: "Londrina Solid", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 2.5rem;
+    font-family: 'Londrina Solid', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .head-text {
-  font-family: "Satisfy", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.5rem;
-  margin-bottom: 0;
+    color: #FDC913;
+    text-align: center;
+    font-family: Satisfy;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 h1 {
-  margin-top: 0;
-  font-family: "Barlow", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  font-size: 4.5rem;
-  text-transform: uppercase;
-  line-height: 1;
+    color: #FFF;
+    font-family: 'Roboto Condensed';
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 6rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 0;
 }
 
 .btn {
-  font-family: Barlow;
-  font-weight: 600;
-  font-style: SemiBold;
-  font-size: 1.1rem;
-  text-align: center;
-  vertical-align: middle;
-  width: 12rem;
-  height: 4rem;
-  background: #FDC913;
-  border-radius: 50px;
-  border: 0;
+    font-family: Barlow;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 12rem;
+    height: 4rem;
+    background: #FDC913;
+    border-radius: 50px;
+    border: 0;
 }
+
+main {
+    background-color: #ec9f1a;
+    height: 1280px;
+    width: 1920px;
+}
+
+.menu-bar {
+    max-width: 1920 px;
+    background: #FFF;
+    height: 94px;
+    justify-content: center;
+    align-content: center;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
 
 .food-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 3.5rem;
-  align-items: center;
-  max-width: 1920 px;
-  background: #FFFFaa;
-  height: 94px;
-  margin:0;
-  list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.25rem;
+    align-items: center;
+    margin:0;
+    list-style-type: none;
 }
 
-.food-item a {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-family: Barlow;
-  font-weight: 500;
-  font-style: Medium;
-  font-size: 1.1rem;
-  line-height: 2rem;
-  letter-spacing: 0%;
-  text-decoration: none;
-  color: black;
+.food-item .row-button {
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    padding: 10px 20px;
+    border-radius: 50px;
+    gap: 0.75rem;
+    font-family: Barlow;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.order-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    align-items: center;
+    gap: 0.75rem;
+    row-gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 0 400px;
+}
+
+.red-items {
+    width: 520px;
+    height: 450px;
+    background-color: #CE2829;
+    border-radius: 0.75rem;
+    position: relative;
+}
+.red-text {
+    padding-left: 2.5rem;
+    color: #FFF;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Quattrocento';
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 0;
+}
+
+.order-btn {
+    display: flex;
+    width: 150px;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    color: #CE2829;
+    font-family: 'Barlow';
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.red-items img {
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+}
+
+#ozel-text {
+    font-family: Barlow;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.black-items {
+    width: 520px;
+    height: 450px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.double-menu {
+    background-color: #292929;
+    height: 260px;
+    border-radius: 0.75rem;
+}
+
+.item2 {
+    position: relative;
+}
+
+.item2 img {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+} 
+
+h3 {
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
+
+.belove {
+    background-image: url('../images/Adv-sehir.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 120%;
+    background-color: #FFEECC;
+}
+
+#dark {
+    color:#292929;
+}
+
+#span-text {
+    color: #CE2829;
+}
+
+#hackathlon {
+    width: 75%;
+    left: 100px;
+}
+
+#speedy {
+    bottom: -20px;
+}
+
+#lezzetler {
+    color: #292929;
+    font-family: Barlow;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top:0.5rem;
+    margin-bottom: 0.35rem;
+}
+
+.food-list .black-item {
+    background-color: #292929;
+    color: #FFF;
+}
+
+.red-version {
+    color: #CE2829;
 }

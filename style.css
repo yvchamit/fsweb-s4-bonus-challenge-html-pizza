@@ -33,6 +33,7 @@ body {
     font-size: 3rem;
     margin-top: 1rem;
     margin-bottom: 3rem;
+    color: #FFF;
 }
 
 .head-text {
@@ -120,7 +121,7 @@ nav ul {
 }
 
 main {
-    height: 1600px;
+    height: 1400px;
 }
 
 .order-section {
@@ -327,4 +328,122 @@ h4 {
     font-family: 'Barlow';
     font-size: 1.25rem;
     font-weight: 700;
+}
+
+
+footer {
+    background-color: #1A1A1A;
+    max-width: 1920px;
+    height: 280px;
+    padding: 90px 435px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.adress-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+}
+
+.foot-logo {
+    margin-top: -2.5rem;
+    margin-bottom: 2rem;
+}
+
+.headline {
+    color: #FFF;
+    font-family: 'Barlow';
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.contact-list {
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    line-height: 2;
+    margin-bottom: 0.15rem;
+}
+
+.contact ul {
+    padding: 0;
+    margin: 0;
+}
+
+.center ul {
+    padding: 0;
+    margin: 0;
+}
+
+.white-text {
+    color: #FFF;
+    font-family: 'Barlow';
+    font-size: 1.1rem;
+    font-weight: 400;
+    list-style: none;
+}
+
+.contact-icon {
+    width: 28px;
+    height: 28px;
+}
+
+.instagram {
+    margin-left: 2rem;
+}
+
+.instagram ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 350px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+}
+
+.copyright-section {
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: #1A1A1A;
+    padding: 30px 435px;
+    width: 100%;
+}
+
+.copy-bar {
+    color: #FFF;
+    width: 1052px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+.copyright span {
+    color: #FFF;
+    font-family: 'Barlow';
+    font-size: 1rem;
+    font-weight: 400;
 }
